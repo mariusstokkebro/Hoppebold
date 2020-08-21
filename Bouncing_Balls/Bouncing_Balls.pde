@@ -1,5 +1,5 @@
-//Balls[] b;
-
+Balls[] b;
+Balls ball = new Balls();
 void setup() {
   size(1000, 700);
   frameRate(120);
@@ -8,10 +8,10 @@ void setup() {
 
 void draw() {
   environment();
-  edgy();
+  ball.edgy();
   bund();
   //for (int i = 0; i < b.length; i++) {
-  move();
+  ball.move();
   //}
   //gravity();
 }
