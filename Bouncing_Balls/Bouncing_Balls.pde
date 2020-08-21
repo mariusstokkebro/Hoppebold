@@ -9,6 +9,7 @@ void setup() {
 void draw() {
   environment();
   edgy();
+  bund();
   //for (int i = 0; i < b.length; i++) {
   move();
   //}
