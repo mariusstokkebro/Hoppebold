@@ -2,8 +2,9 @@ class Balls {
 PVector velocity = new PVector(2, 2);    
 PVector pos = new PVector(60, 60);
 int radius = 50;
-  Balls(){
-  
+  Balls(float x, float y ,float xspeed, float yspeed){
+  velocity.set(xspeed,yspeed);
+  pos.set(x,y);
   }
   void move() {
     pos.add(velocity);
